@@ -1,0 +1,25 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.choices {
+  width: 200px;
+  background-color: gray;
+  color: white;
+}
+
+.choices__inner {
+  background-color: gray;
+  color: white;
+}
+
+.choices__list {
+  background-color: gray;
+  color: white;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+  background-color: black;
+}
