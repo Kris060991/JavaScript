@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form class="form" action="#">
+    <label>Имя пользователя:
+      <input class="name" type="text" id="name" name="name" required>
+    </label>
+    <label>Email:
+      <input class="email" type="email" id="email" name="email" required>
+    </label>
+
+    <label>Пол:
+      <label for="men">Мужской
+        <input type="radio" id="men" name="gender" value="Мужской">
+      </label>
+      <label for="women">Женский
+        <input type="radio" id="women" name="gender" value="Женский">
+      </label>
+    </label>
+
+    <label>Оценка сервиса:
+      <input class="service" type="range" id="service" name="service" min="0" max="10">
+    </label>
+
+    <label>Интересы пользователя:
+      <div class="custom-checkbox__inner">
+        <input class="custom-checkbox__field" type="checkbox" id="sport" name="sport" value="Спорт">
+        <label for="sport">Спорт</label>
+      </div>
+      <div class="custom-checkbox__inner">
+        <input class="custom-checkbox__field" type="checkbox" id="music" name="music" value="Музыка">
+        <label for="music">Музыка</label>
+      </div>
+      <div class="custom-checkbox__inner">
+        <input class="custom-checkbox__field" type="checkbox" id="travel" name="travel" value="Путешествия">
+        <label for="travel">Путешествия</label>
+      </div>
+      <div class="custom-checkbox__inner">
+        <input class="custom-checkbox__field" type="checkbox" id="movie" name="movie" value="Кино">
+        <label for="movie">Кино</label>
+      </div>
+    </label>
+
+    <label class="custom-textaria">Дополнительные комментарии:
+      <textarea class="comment" name="comment" id="comment"></textarea>
+    </label>
+    <button class="btn" type="submit">Отправить</button>
+  </form>
+
+  <div class="output"></div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

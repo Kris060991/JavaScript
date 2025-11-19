@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="title">Калькулятор стоимости доставки</h1>
+  <form class="form" action="#">
+    <label class="form-title">
+      Название товара:
+      <input class="name" type="text" id="name">
+      <div id="nameError" class="error"></div>
+    </label>
+
+    <label class="form-title">
+      Вес товара (кг):
+      <input class="weight" type="number" id="weight" required>
+      <div id="weightError" class="error"></div>
+    </label>
+
+    <label class="form-title">
+      Расстояние доставки (км):
+      <input class="distance" type="number" id="distance" required>
+      <div id="distanceError" class="error"></div>
+    </label>
+
+    <button class="btn" type="submit">Добавить товар</button>
+  </form>
+
+  <table class="product-table">
+    <thead>
+      <tr>
+        <th>Название товара</th>
+        <th>Вес (кг)</th>
+        <th>Расстояние (км)</th>
+        <th>Стоимость доставки</th>
+      </tr>
+    </thead>
+    <tbody class="product-list">
+      <!-- Здесь будут добавляться товары -->
+    </tbody>
+  </table>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.custom-textaria {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  max-width: 300px;
+}
+
+.btn {
+  width: 150px;
+}
