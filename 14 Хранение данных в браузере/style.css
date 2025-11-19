@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-input {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-checkbox {
+  margin: 0;
+  width: 13px;
+}
+
+.btn {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.film-table {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.film-thead {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.film-tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: start;
+}
+
+.film-tbody {
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+}
+
+.tbody-tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: start;
+  padding: 0 0 5px;
+}
+
+.tbody-tr:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.cancel-edit-btn {
+  width: 200px;
+}
