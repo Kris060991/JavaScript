@@ -1,0 +1,18 @@
+.cats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cat {
+  width: 100px;
+  height: 70px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.big-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
