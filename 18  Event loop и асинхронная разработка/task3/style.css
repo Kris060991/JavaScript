@@ -1,0 +1,27 @@
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: lightblue;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.timer {
+  color: black;
+  font-size: 24px;
+}
+
+.animal-container {
+  margin: 0 0 10px;
+}
+
+.img-row {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 10px;
+}
